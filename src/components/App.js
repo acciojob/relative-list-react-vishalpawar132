@@ -15,9 +15,9 @@ const App = () => {
   return (
     <div id="main">
                <h1>Relatives to Visit This Diwali:</h1>
-      <ol>
+      <ol id='relativeList'>
           {relativeList.map((relative) => (
-            <li key={relative.key}>{relative.name}</li>
+            <li key={relative.key} id='relativeListItem1' >{relative.name}</li>
           ))}
       </ol>
     </div>
